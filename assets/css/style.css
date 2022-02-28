@@ -1,0 +1,205 @@
+
+header{
+    height: 10em;
+    width: 100%; 
+    
+}
+
+ .headerimg{
+    height: 100%;
+    width: 100%;
+} 
+
+.littlemario{
+    height: 30px;
+    width: 30px;
+position: absolute; top: 118px; left: 10px;
+transform: translate( 50px);
+animation-iteration-count: infinite;
+animation-name: glisse;
+animation-duration: 8s;
+
+}
+
+@keyframes glisse{
+   0% {left: 0%; top: 118px; }
+   10% {left: 29%; top: 118px; }
+   20% {left: 29%; top: 160px;}
+   25% {left: 37%; top: 160px;}
+   30% {left: 37%; top: 115px;}
+   35% {left: 60%; top: 115px;}
+   40% {left: 60%; top: 75px;}
+   45% {left: 64%; top: 75px;}
+   50% {left: 66%; top: 110px;}
+   55% {left: 67%; top: 75px;}
+   60% {left: 69%; top: 75px;}
+   65% {left: 72%; top: 110px}
+   70% {left: 80%; top: 110px;}
+   75% {left: 84%; top: 40px;}
+   80% {left: 86%; top: 110px;}
+   85% {left: 90%; top: 110px;}
+   100% {left: 90%; top: 30px;}
+
+
+   }
+
+ .lgmario{
+     height: 60%;
+ }  
+
+
+.mario{
+    margin-top: 3em;
+    height: 12em;
+}
+
+.mario2{
+    background-color: #5c94fb;
+    height: 25em;
+}
+
+.p1, .p2, .p3{
+    padding: 3em;
+}
+
+.p3 {
+    margin-left: 8em;
+}
+
+.card{
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.5);
+    z-index: 2;
+}
+
+.nintendo{
+    background-color: #5c94fb;
+}
+
+
+
+.spup{
+position: absolute; top: 102em; left: 3em;
+width: 60px;
+height: 60px;
+transform: translatY( 50px);
+animation-iteration-count: infinite;
+animation-name: up;
+animation-duration: 3s;
+
+}
+
+@keyframes up{
+    0% {top:102em;}
+100% {top:91em;}
+}
+
+.star{
+    position: absolute; top: 91em; left: 3em;
+width: 60px;
+height: 60px;
+transform: translatY( 50px);
+animation-iteration-count: infinite;
+animation-name: star;
+animation-duration: 3s;
+}
+
+@keyframes star{
+    0% {top: 90em;}
+    40% {top: 90em;}
+100% {top:86em;}
+}
+
+.box{
+    position: absolute; top: 90em; left: 2.7em;
+width: 68px;
+height: 70px;
+
+}
+
+footer{
+    width: 100%;
+    height: 15em;
+}
+
+.imgfooter{
+width: 100%;
+height: 15em;
+position: absolute;
+}
+
+
+ .nintendologo {
+   display: flex;
+   height: 10em;
+   width: 13em;
+   margin: auto;
+} 
+
+
+
+.champi {
+    height: 3em;
+    width: 3em;
+    position: absolute; top: 135px; left: 90%;
+    transform: translateX( 50px);
+animation-iteration-count: infinite;
+animation-name: champi;
+animation-duration: 12s;
+}
+
+@keyframes champi{
+0% {left:95%;}
+50% {left: 33%; top: 135px;}
+70% {left: 55%; top: -50px;}
+100% {left: 110%; top: -50px;}
+
+}
+
+
+
+.gwmario {
+    height: 5em;
+    width: 5em;
+    position: absolute; top: 110px; left: 5%;
+    transform: translateX( 50px);
+animation-iteration-count: infinite;
+animation-name: gwmario;
+animation-duration: 6s;
+}
+
+@keyframes gwmario{
+    0% {left: 0%; top: 110px;}
+    20%{left: 16%; top: 110px;}
+    40% {left: 16%; top: 80px;}
+    50% {left: 16%; top: 110px;}
+    60% {left: 24%; top: 110px;}
+    80% {left: 24%; top: 40px;}
+    90% {left: 24%; top: 110px;}
+    100% {left: 30%; top: 110px;}
+}
+
+.star2{
+    height: 4em;
+    width: 4em;
+    position: absolute; top: 60px; left: 20%;
+animation-iteration-count: infinite;
+animation-name: star2;
+animation-duration: 5s;
+}
+
+@keyframes star2{
+0%{top: 60px; left: 20%;}
+70% {top: 10px; left: 20%;}
+95% {top: 10px; left: 28%}
+100% { top: 10px; left: 28%; opacity: 100%;}
+}
+
+.box2{
+    height: 4em;
+    width: 4em;
+    position: absolute; top: 60px; left: 20%;
+}
